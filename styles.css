@@ -296,6 +296,8 @@
   .background-bottom-right {
     width: 200px;
     top: 15%;
+    right:-20%;
+
   }
 
   .big-heading {
