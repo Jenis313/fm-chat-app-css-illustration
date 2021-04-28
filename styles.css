@@ -1,0 +1,346 @@
+@media (max-width:2000px) and (min-width:300px) {
+
+  body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    background-color: hsl(270, 20%, 96%);
+    color: white;
+  }
+
+  /* Background */
+  .background-top-left {
+    background-image: radial-gradient(hsl(278, 100%, 61%), hsl(264, 100%, 61%));
+    position: fixed;
+    width: 500px;
+    height: 2000px;
+    border-radius: 0 0 300px 250px;
+    bottom: 15%;
+    left: -5%;
+    z-index: -1;
+  }
+
+  .background-bottom-right {
+    background-color: #ededed;
+    position: fixed;
+    width: 400px;
+    height: 1260px;
+    border-radius: 500px 0 5px 0;
+    top: 10%;
+    right: 0;
+    z-index: -2;
+  }
+
+  /* Containers */
+    .container-fluid {
+    padding: 6% 15% 4%;
+  }
+
+  .container {
+    background-color: white;
+    position: relative;
+    width: 300px;
+    height: 550px;
+    border-radius: 40px;
+    box-shadow: 8px 15px 20px #7a7a7a;
+  }
+
+  .row {
+    position: relative;
+  }
+
+  /* Title Section */
+  .title-section {
+    padding: 5% 0 5%;
+    margin: auto;
+  }
+
+  .big-heading {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: hsl(271, 36%, 24%);
+    padding-bottom: 1%;
+  }
+
+  .title-paragraph {
+    color: #808080;
+    width: 70%;
+    line-height: 1.8;
+  }
+
+
+/* Chat Section */
+.mobile-section {
+  margin: auto;
+}
+
+.white-box {
+  background-color: white;
+  position: absolute;
+  height: 35px;
+  width: 55%;
+  left: 25%;
+  z-index: 3;
+  top: 0;
+  border-radius: 0 0 15px 15px;
+}
+
+  /* Chat Name */
+  .chat-name-section {
+    background-image: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    width: 90%;
+    padding: 2% 5% 3% 5%;
+    margin: 5% 5% 0;
+    border-radius: 25px 25px 5% 5%;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .name-space {
+    margin: auto;
+    padding: 5% 0 0;
+  }
+
+  .chat-name {
+    font-size: .8rem;
+    margin: auto;
+    font-weight: 500;
+  }
+
+  .chat-status {
+    font-size: .6rem;
+    margin: auto;
+    font-weight: normal;
+  }
+
+  .profile-image {
+    width: 3vw;
+    border-radius: 50px;
+    border: 3px solid white;
+  }
+
+  /* Chat Conversation */
+  .chat-conversation-section {
+    background-color: hsl(270, 20%, 96%);
+    color: hsl(264, 100%, 61%);
+    font-size: .4rem;
+    width: 90%;
+    padding: 5% 5% 0;
+    margin: 0 5%;
+    border-radius: 0 0 15px 15px;
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+  }
+
+  .chatbox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .chat-1 {
+    background-color: #ECE5F2;
+    width: 80%;
+    padding: 5%;
+    border-radius: 20px 0 15px 0;
+    margin-bottom: 5px;
+  }
+
+  .chat-2 {
+    background-color: #ECE5F2;
+    width: 80%;
+    padding: 5%;
+    border-radius: 20px 0 15px 0;
+    margin-bottom: 5px;
+  }
+
+  .chat-3 {
+    align-self: flex-end;
+    text-align: right;
+    width: 80%;
+    padding: 2%;
+    border-radius: 0 20px 0 15px;
+    margin-bottom: 5px;
+  }
+
+  .chat-images {
+    width: 25%;
+    border-radius: 10px;
+  }
+
+  .chat-4 {
+    align-self: flex-end;
+    background-color: white;
+    text-align: right;
+    width: 70%;
+    padding: 5%;
+    border-radius: 0 20px 0 15px;
+    margin-bottom: 5px;
+  }
+
+  .chat-5 {
+    align-self: flex-end;
+    background-color: white;
+    text-align: right;
+    width: 40%;
+    padding: 5% 5% 5% 0;
+    border-radius: 0 20px 0 15px;
+    margin-bottom: 5px;
+  }
+
+  .chat-6 {
+    background-color: #ECE5F2;
+    width: 70%;
+    padding: 5%;
+    border-radius: 20px 0 15px 0;
+    margin-bottom: 5px;
+  }
+
+  .chat-7 {
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    width: 80%;
+    padding: 5%;
+    border-radius: 20px 0 15px 0;
+    margin-bottom: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .time-status {
+    font-size: .5rem;
+  }
+
+  .price {
+    font-weight: bold;
+    font-size: .7rem;
+  }
+
+  .chat-8 {
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    width: 80%;
+    padding: 5%;
+    border-radius: 20px 0 15px 0;
+    margin-bottom: 7%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .space-only {
+    justify-content: space-around;
+  }
+
+  .chat-9 {
+    background-color: white;
+    color: #808080;
+    width: 100%;
+    padding: 5%;
+    border-radius: 50px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+/* Icons */
+  .far, .fas {
+    color: #ECE5F2;
+  }
+
+  .fa-chevron-circle-right {
+    color: hsl(271, 36%, 24%);
+  }
+
+  /* Footer */
+  .attribution {
+    position: relative;
+    text-align: center;
+    color: #808080;
+  }
+
+  a:link {
+    color: hsl(264, 100%, 61%);
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: hsl(271, 36%, 24%);
+  }
+
+  a:hover {
+    color: hsl(293, 100%, 63%);
+  }
+}
+
+@media (max-width:1136px) {
+  .title-section {
+    padding: 5% 10% 5%;
+    margin: auto;
+  }
+
+  .title-paragraph {
+    width: 100%;
+  }
+}
+
+@media (max-width:768px) {
+  .big-heading {
+    margin-top: 15%;
+    text-align: center;
+  }
+
+  .title-paragraph {
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+  }
+
+  .background-top-left {
+    background-image: radial-gradient(hsl(278, 100%, 61%), hsl(264, 100%, 61%));
+    position: fixed;
+    width: 300px;
+    height: 700px;
+    border-radius: 0 0 300px 250px;
+    bottom: 40%;
+    left: -5%;
+    z-index: -1;
+  }
+
+  .background-bottom-right {
+    background-color: #ededed;
+    position: fixed;
+    width: 200px;
+    height: 360px;
+    border-radius: 500px 0 5px 0;
+    top: 30%;
+    right: 0;
+    z-index: -2;
+  }
+
+  .container {
+    background-color: white;
+    position: relative;
+    width: 250px;
+    height: 500px;
+    border-radius: 40px;
+    box-shadow: 8px 15px 20px #7a7a7a;
+  }
+
+  .chat-conversation-section {
+    top: 72px;
+  }
+}
+
+@media (max-width:600px) {
+  .profile-image {
+    width: 10vw;
+    border: 2px solid white;
+  }
+
+  .container-fluid {
+    padding: 15% 15% 4%;
+  }
+
+  .title-section {
+    padding-top: 10%;
+  }
+}
